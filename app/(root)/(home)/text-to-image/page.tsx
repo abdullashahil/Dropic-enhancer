@@ -43,8 +43,8 @@ export default function TextToImage() {
             const imageUrl = URL.createObjectURL(blob);
 
             setGeneratedImage(imageUrl);
-        } catch (err: any) {
-            setError(err.message || 'Failed to generate image. Please try again.');
+        } catch (err) {
+            setError('Failed to generate image. Please try again.');
         } finally {
             setIsLoading(false);
         }

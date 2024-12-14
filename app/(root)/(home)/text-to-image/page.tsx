@@ -44,7 +44,7 @@ export default function TextToImage() {
 
             setGeneratedImage(imageUrl);
         } catch (err) {
-            setError('Failed to generate image. Please try again.');
+            setError(err, 'Failed to generate image. Please try again.');
         } finally {
             setIsLoading(false);
         }

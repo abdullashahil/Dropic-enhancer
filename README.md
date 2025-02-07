@@ -1,5 +1,5 @@
 # Dropic
-## 🔗 Deployed - 🔗[Click Here](https://ovid-meetings-on-the-go.vercel.app/)
+## Deployed - 🔗[Click Here](https://ovid-meetings-on-the-go.vercel.app/)
 
 Dropic is a web application with simple tools for editing images. It helps users remove backgrounds, erase text, improve image quality, create images from text, and transform sketches into fully colored images. Built with **Next.js** and **TypeScript**, Dropic combines powerful features in one place for a smooth editing experience.
 
